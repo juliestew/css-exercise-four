@@ -10,23 +10,52 @@ body {
 
 
 .container {
-  margin: 2%;
-  width: 98%;
+  margin: 0;
+  width: 100%;
+
+}
+
+div.preview {
+  align-items: center;
 
 }
 
 div {
   background-color: #dadada;
   float: left;
-  margin: 1%;
+  margin: 0;
   width: 100%;
   padding-top: 5px;
+  padding-bottom: 2px;
 }
 div.baku {
   background-image: url('../images/baku.jpg');
-  height: 400px;
+  height: 200px;
+  background-size: 300px  200px;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
+div.rome {
+  background-image: url('../images/rome.jpg');
+  height: 200px;
+  background-size: 300px  200px;
+  background-repeat: no-repeat;
+}
+
+div.london {
+  background-image: url('../images/london.png');
+  height: 200px;
+  background-size: 300px  200px;
+  background-repeat: no-repeat;
+}
+
+div.madrid {
+  background-image: url('../images/madrid.jpg');
+  height: 200px;
+  background-size: 300px  200px;
+  background-repeat: no-repeat;
+}
 
 /* code added to create two-column design */
 @media screen and (min-width: 575px){
