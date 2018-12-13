@@ -11,7 +11,7 @@ body {
 
 .container {
   margin: 2%;
-  width: 98%%;
+  width: 98%;
 
 }
 
@@ -22,8 +22,9 @@ div {
   width: 100%;
   padding-top: 5px;
 }
-div."preview baku" {
-  background: url('../images/baku.jpg');
+div.baku {
+  background-image: url('../images/baku.jpg');
+  height: 400px;
 }
 
 
