@@ -1,60 +1,53 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+h1, h3 {
+  font-size: 2.5em;
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 10px;
+}
 
+h3 {
+  font-size: 1.8em;
+  font-weight: 300;
+}
 body {
   background-color: #dadada;
   font-size: 10px;
 }
-
-
-
-.container {
-  margin: 0;
-  width: 100%;
-
-}
-
-div.preview {
-  align-items: center;
-
-}
-
-div {
-  background-color: #dadada;
-  float: left;
-  margin: 0;
-  width: 100%;
-  padding-top: 5px;
-  padding-bottom: 2px;
-}
 div.baku {
   background-image: url('../images/baku.jpg');
-  height: 200px;
-  background-size: 300px  200px;
-  background-repeat: no-repeat;
-  margin: auto;
 }
 
 div.rome {
   background-image: url('../images/rome.jpg');
-  height: 200px;
-  background-size: 300px  200px;
-  background-repeat: no-repeat;
 }
 
 div.london {
   background-image: url('../images/london.png');
-  height: 200px;
-  background-size: 300px  200px;
-  background-repeat: no-repeat;
 }
 
 div.madrid {
   background-image: url('../images/madrid.jpg');
-  height: 200px;
-  background-size: 300px  200px;
+
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+
+div {
+  background-color: #dadada;
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 200px;
 }
 
 /* code added to create two-column design */
@@ -62,8 +55,8 @@ div.madrid {
    div {
     margin: 1%;
     width: 48%;
+    display: inline-block;
   }
-}
 
 h1, h3 {
   font-size: 2.5em;
@@ -75,6 +68,83 @@ h3 {
   font-weight: 300;
 }
 
+div.baku {
+  background-image: url('../images/baku.jpg');
+  height: 200px;
+  width: 47%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+div.rome {
+  background-image: url('../images/rome.jpg');
+  height: 200px;
+  width: 47%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+div.london {
+  background-image: url('../images/london.png');
+  height: 200px;
+  width: 47%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.madrid {
+  background-image: url('../images/madrid.jpg');
+  height: 200px;
+  width: 47%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+}
 /* larger */
 @media screen and (min-width: 991px){
+  div {
+   margin: .5%;
+
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 200px;
+   display: inline-block;
+ }
+
+ div.baku {
+   background-image: url('../images/baku.jpg');
+   height: 200px;
+   width: 23%;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ div.rome {
+   background-image: url('../images/rome.jpg');
+   height: 200px;
+   width: 23%;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+ }
+
+ div.london {
+   background-image: url('../images/london.png');
+   height: 200px;
+   width: 23%;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ div.madrid {
+   background-image: url('../images/madrid.jpg');
+   height: 200px;
+   width: 23%;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+
+
+}
